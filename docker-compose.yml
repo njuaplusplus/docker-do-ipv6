@@ -1,0 +1,5 @@
+setipv6:
+  image: quay.io/njuaplusplus/digitalocean-ipv6
+  environment:
+    - IPV6_ADDR=your_ipv6_address
+    - IPV6_GATEWAY=your_ipv6_gateway
